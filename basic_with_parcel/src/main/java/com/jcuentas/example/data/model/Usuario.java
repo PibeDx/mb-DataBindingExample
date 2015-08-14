@@ -23,7 +23,7 @@ public class Usuario extends BaseObservable {
 
     public void setVisible(boolean visible) {
         this.visible = visible;
-        notifyPropertyChanged(com.jcuentas.example.BR.visible);
+        notifyPropertyChanged(BR.visible);
     }
     @Bindable
     public String getNombre() {
